@@ -1,0 +1,120 @@
+
+.layout {
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    min-height: 100vh;
+    }
+    
+    /* Menu lateral */
+.derecha {
+background-color:whitesmoke;
+color:black;
+display: flex;
+flex-direction: column;
+margin-top: 0%;
+margin: 0;
+width: 15%; /* Tamaño del menu lateral (no tocar) */
+justify-content: space-around;
+
+}
+
+.emojis {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-left: -39px;
+}
+
+
+.contact {
+    width: 100%;
+}
+
+.profiles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    gap: 10px; ;
+}
+
+.iconos {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    font-size: 30px;
+    margin-left: auto;
+}
+
+.perfilprofile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.saveperfil {
+    font-weight: bolder;
+    font-size: 18px;
+}
+.newchat {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; 
+}
+
+.malparida {
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-left: -40px;
+}
+
+.chat {
+    font-size: 20px;
+    font-weight: lighter;
+    background-color: #A491D2;
+    color: whitesmoke;
+    padding: 12px 30px;  
+    margin: 0;          
+    text-align: center;
+}
+
+/* Zona del Main */
+.content {
+    width: 85%; /* Tamaño de la zona principal (no tocar) */
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    text-align: center;
+}
+   
+.mainh{
+font-size: 50px;
+font-style: italic;
+margin-top: 5%;
+margin-bottom: 0%;
+}
+
+.mainp {
+font-size: 18px;
+line-height: 2;
+margin: 0%;
+}
+
+.textchan { 
+font-weight:bolder;
+}
